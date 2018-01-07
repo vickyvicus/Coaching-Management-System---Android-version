@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodenbackground">
+
+    <Button android:id="@+id/btnadminaddcour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Course"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent" />
+
+    <Button android:id="@+id/btnadminaddbat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Batch"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent" />
+
+    <Button android:id="@+id/btnadminadduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New User"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent" />
+    <Button android:id="@+id/btnadminaback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

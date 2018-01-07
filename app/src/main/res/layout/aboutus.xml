@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="About Us"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="50dp"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/vikas"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="VIKAS AGARWAL"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_purple"
+                    android:text="SKIT, JAIPUR"
+                    android:layout_gravity="center"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/risabh"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="RISHABH KUMAR"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_purple"
+                android:text="GCT, JAIPUR"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

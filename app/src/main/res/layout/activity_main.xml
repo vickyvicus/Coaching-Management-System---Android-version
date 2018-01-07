@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agarwal.coaching.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:text="Username"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText android:id="@+id/edtmainuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:singleLine="true"
+        android:textSize="25sp"
+        android:textColorHint="@android:color/holo_blue_bright"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:text="Password"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText android:id="@+id/edtmainpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:textSize="25sp"
+        android:textColorHint="@android:color/holo_blue_bright"
+        android:inputType="textPassword"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button android:id="@+id/btnmainlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:textSize="30sp" />
+
+        <Button android:id="@+id/btnmainreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:textSize="30sp"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+</LinearLayout>

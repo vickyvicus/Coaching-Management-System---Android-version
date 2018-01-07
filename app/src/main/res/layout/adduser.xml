@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Add User"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="50sp"
+                        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <EditText android:id="@+id/edtaduseremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColorHint="@android:color/holo_green_dark"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <EditText android:id="@+id/edtadusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter UserName"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColorHint="@android:color/holo_green_dark"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <EditText android:id="@+id/edtaduserpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColorHint="@android:color/holo_green_dark"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp">
+
+            <Spinner android:id="@+id/spnadusertype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/usertypes" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+    <Button android:id="@+id/btnadusersub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textSize="30sp" />
+
+        <Button android:id="@+id/btnaduserback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BACK"
+            android:textSize="30sp"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

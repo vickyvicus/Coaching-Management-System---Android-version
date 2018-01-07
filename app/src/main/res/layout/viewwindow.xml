@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodenbackground">
+
+    <Button android:id="@+id/btnviewstud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Student Record"
+        android:textColor="@color/textcolor1"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent" />
+
+    <Button android:id="@+id/btnviewquery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Query Record"
+        android:textColor="@color/textcolor1"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent" />
+
+    <Button android:id="@+id/btnviewback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textColor="@color/textcolor1"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent" />
+
+
+</LinearLayout>

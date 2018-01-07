@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/oceanbackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD COURSE"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:padding="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Name:"
+            android:textColor="@color/colorview"
+            android:textSize="20dp"/>
+
+        <EditText android:id="@+id/edtcoursename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Duration:"
+            android:textColor="@color/colorview"
+            android:textSize="20dp"/>
+
+        <EditText android:id="@+id/edtcourdurmon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:minWidth="50dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Months"
+            android:textSize="15dp"/>
+
+        <EditText android:id="@+id/edtcourdurday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20dp"
+            android:inputType="number"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Days"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fees:"
+                android:textSize="20dp"
+                android:textColor="@color/colorview"/>
+
+            <EditText android:id="@+id/edtcourfees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Fee"
+                android:paddingLeft="30dp"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+        <Button android:id="@+id/btnaddcur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_gravity="center"/>
+        <Button android:id="@+id/btnaddcurback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+</LinearLayout>

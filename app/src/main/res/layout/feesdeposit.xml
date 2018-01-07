@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slatebackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fee Deposit"
+                android:textSize="40sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receipt No:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+            <TextView
+                android:id="@+id/viewfeedeprecno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple"
+                android:text="Hello"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/viewfeedepdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple"
+                android:text="Hello"/>
+        </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spnfeedepcourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+            <Spinner
+                android:id="@+id/spnfeedepbatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+            <Spinner
+                android:id="@+id/spnfeedepstudname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+
+            <TextView
+                android:id="@+id/viewfeedepcontno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/holo_green_dark"
+                    />
+
+                <TextView
+                    android:id="@+id/viewfeedepemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/holo_purple" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fees Amount:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+\
+            <TextView
+                android:id="@+id/viewfeedepfeeamt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deposited:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+
+            <TextView
+                android:id="@+id/viewfeedeposited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+
+            <TextView
+                android:id="@+id/viewfeedepdue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            <EditText
+                android:id="@+id/edtfeedeptodep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="To Deposit:"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="35dp">
+
+                <Button
+                    android:id="@+id/btnfeedepsub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/btnfeedepback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
